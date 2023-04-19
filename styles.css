@@ -217,13 +217,13 @@ nav {
 }
 
 .about-me__img--container {
-    display: flex;
     flex: 1;
+    display: flex;
     align-items: center
 }
 
 .about-me__img {
-    padding: 50px 0px;
+    padding: 50px 0;
     width: 100%;
     animation: fade-in 1200ms 800ms backwards;
 }
@@ -309,7 +309,7 @@ nav {
     margin-bottom: 135px;
 }
 
-.project: :last-child {
+.project:last-child {
     margin-bottom: 40px; 
 }
 
